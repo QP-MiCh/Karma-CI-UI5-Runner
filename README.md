@@ -1,4 +1,4 @@
-## Application Details
+## Application Details - Test
 |               |
 | ------------- |
 |**Generation Date and Time**<br>Thu Aug 12 2021 15:59:54 GMT+0200 (Mitteleuropäische Sommerzeit)|
@@ -30,5 +30,13 @@ A Fiori application.
 #### Pre-requisites:
 
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
+
+
+
+<FunctionImport Name="Decision" ReturnType="TASKPROCESSING.Task" EntitySet="TaskCollection" m:HttpMethod="POST"
+					sap:action-for="TASKPROCESSING.Task"><Parameter Name="InstanceID" Type="Edm.String" Mode="In" 
+					Nullable="false"/><Parameter Name="DecisionKey" Type="Edm.String" Mode="In" Nullable="false"/><Parameter Name="Comments" 
+					Type="Edm.String" Mode="In" Nullable="true"/></FunctionImport>
+				
 
 
